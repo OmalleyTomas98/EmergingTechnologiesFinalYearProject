@@ -7,7 +7,7 @@
 
 # flask for web app.
 import flask as fl
-from flask import request 
+from flask import request
 import tensorflow as tf
 
 
@@ -19,12 +19,3 @@ app = fl.Flask(__name__)
 def home():
   return app.send_static_file('index.html')
 
-# Add uniform route.
-@app.route('/api/uniform')
-def uniform():
-  return {"value": np.random.uniform()}
-
-# Add normal route.
-@app.route('/api/normal')
-def normal():
-  return {"value": np.random.normal()}
