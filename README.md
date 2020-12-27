@@ -12,9 +12,10 @@ Here is my  documentation for the final year project for the module Emerging Tec
 | `Author` | Tomas O'Malley (G00361128)@gmit.ie |
 | `Course` | Software Development GA_KSOAG_H08 Y4  |
 | `Module` | Emerging  Technologies  |
-| `Program` | Wind Turbine model  |
+| `Program` | Wind Turbine Prediction Model  |
 | `Langauge` | Python |
 | `Weighting` | 50% |
+| `Due Date ` | 08/01/2021 |
 | `Year of Study` | 4 |
 
 
@@ -38,13 +39,11 @@ Here is my  documentation for the final year project for the module Emerging Tec
 
 ## Deployment
 - To run my program(s) you must carefully follow the instructions provided in the links below to successfully run .
- 1. git clone https://github.com/OmalleyTomas98/EmergingTechnologiesTasks.git
- 2. cd EmergingTechnologiesTasks
- 3. jupyter notebook
- 4. navigate through the file system e.g Task1
- 5. click run to execute the python Script
+ 1. git clone https://github.com/OmalleyTomas98/EmergingTechnologiesFinalYearProject.git
+ 2. cd EmergingTechnologiesFinalYearProject
 
- # Wind Turbine Metric Flask App.
+
+ # Running Wind Turbine Metric Flask App.
 
  # Execution on Linux Platform 
  ```bash
@@ -56,11 +55,6 @@ Here is my  documentation for the final year project for the module Emerging Tec
  ```bash
  set FLASK_APP=webServce.py
  python -m flask run
- ```
-
- ```bash
- docker build . -t rando-image
- docker run --name rando-container -d -p 5000:5000 rando-image
  ```
 
 - Underneath is a list of all the software needed and installed to develop my program  for the Module : Emerging Technologies
@@ -83,3 +77,12 @@ Here is my  documentation for the final year project for the module Emerging Tec
 * [Cmdr  Installation  ](https://cmder.net/)
   - Cmder  is a command  Line Interface emualtor used on windows to emulate the UNIX shell.
 /github.com/OmalleyTomas98/EmergingTechnologiesTasks/blob/main/TASK3/standardDeviation.ipynb)
+
+
+* [Flask Installation ](https://pypi.org/project/Flask/)
+  - Flask is a micro web framework written in Python
+  
+  
+* [Bootstrap Installation ](https://getbootstrap.com/docs/4.0/getting-started/download/)
+  - Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web
+
