@@ -13,7 +13,7 @@ Here is my  documentation for the final year project for the module Emerging Tec
 | `Course` | Software Development GA_KSOAG_H08 Y4  |
 | `Module` | Emerging  Technologies  |
 | `Program` | Wind Turbine Prediction Model  |
-| `Langauge` | Python |
+| `Language` | Python |
 | `Weighting` | 50% |
 | `Due Date ` | 08/01/2021 |
 | `Year of Study` | 4 |
@@ -45,7 +45,7 @@ Here is my  documentation for the final year project for the module Emerging Tec
 
  # Running Wind Turbine Metric Flask App.
 
- # Execution on Linux Platform 
+ # Execution on Linux Platform
  ```bash
  export FLASK_APP=webServce.py
  python3 -m flask run
@@ -56,6 +56,17 @@ Here is my  documentation for the final year project for the module Emerging Tec
  set FLASK_APP=webServce.py
  python -m flask run
  ```
+
+
+## Application Modules  Breakdown
+  - modelTrainerOverview.ipynb : Jupyter notebook that trains a model using the data set. In the notebook I
+ explain the  model and  an analysis of its accuracy.
+  - webService.py : . Python script that runs a web service based on the model provided
+  - Dockerfile : builds and runs the web service "webService.py" in a container.
+  - README : The current document report you are reading covering the nature of the Program to the core fundamentals/technologies used to resolve the problem sheet  -"specsheet.pdf" issues.
+
+
+
 
 - Underneath is a list of all the software needed and installed to develop my program  for the Module : Emerging Technologies
 
@@ -81,8 +92,7 @@ Here is my  documentation for the final year project for the module Emerging Tec
 
 * [Flask Installation ](https://pypi.org/project/Flask/)
   - Flask is a micro web framework written in Python
-  
-  
+
+
 * [Bootstrap Installation ](https://getbootstrap.com/docs/4.0/getting-started/download/)
   - Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web
-
