@@ -4,7 +4,7 @@
 
 ## Description
  <p align="left">
-Here is the documentation and answers to the end of year project for the module Emerging Technologies.
+Here is my  documentation for the final year project for the module Emerging Technologies.The objective of the project is to create a web service that uses machine learning from the computer langauge python to create predictions based on a dataset named "powerproduction" provided by our college online portal.
 </p>
 
 | Header | Description |
@@ -26,10 +26,14 @@ Here is the documentation and answers to the end of year project for the module 
 | --- | --- |
 | 1 | Windows 10|
 | 2 | Anaconda|
-| 3 | Docker|
-| 4 | Jupyter|
-| 5 | Git|
-| 6 | Cmder |
+| 3 | Python|
+| 4 | Docker|
+| 5 | Jupyter|
+| 6 | Git|
+| 7 | Cmder |
+| 8 | Flask |
+| 9 | Bootstrap |
+
 
 
 ## Deployment
@@ -42,15 +46,15 @@ Here is the documentation and answers to the end of year project for the module 
 
  # Wind Turbine Metric Flask App.
 
- # Linux
+ # Execution on Linux Platform 
  ```bash
- export FLASK_APP=rando.py
+ export FLASK_APP=webServce.py
  python3 -m flask run
  ```
 
- # Windows
+ # Execution on  Windows Platform
  ```bash
- set FLASK_APP=rando.py
+ set FLASK_APP=webServce.py
  python -m flask run
  ```
 
