@@ -47,7 +47,7 @@ Here is my  documentation for the final year project for the module Emerging Tec
 
  # Execution on Linux Platform
  ```bash
- export FLASK_APP=webServce.py
+ export FLASK_APP=webService.py
  python3 -m flask run
  ```
 
