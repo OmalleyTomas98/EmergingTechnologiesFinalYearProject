@@ -61,16 +61,15 @@ Here is my  documentation for the final year project for the module Emerging Tec
 ## Application Modules  Breakdown
   - modelTrainerOverview.ipynb : Jupyter notebook that trains a model using the data set. In the notebook I
  explain the  model and  an analysis of its accuracy.
+  - powerproduction.csv : csv with 500 speed , power datasets from moodle portal.
   - webService.py : . Python script that runs a web service based on the model provided
   - Dockerfile : builds and runs the web service "webService.py" in a container.
+  - powerProduction.h5 : saved data model in h5 file  from modelTrainerOverview.ipynb , An H5 file is a data file saved in the Hierarchical Data Format (HDF). It contains multidimensional arrays of scientific data. 
+  - index.html : html file qith python script for displaying user input for application using flask
   - README : The current document report you are reading covering the nature of the Program to the core fundamentals/technologies used to resolve the problem sheet  -"specsheet.pdf" issues.
 
 
-
-
 - Underneath is a list of all the software needed and installed to develop my program  for the Module : Emerging Technologies
-
-
 
 * [Windows 10  Installation   ](https://www.microsoft.com/en-gb/software-download/windows10)
   - Windows 10 is the Operating System used to Develope my Programs.
