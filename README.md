@@ -53,7 +53,7 @@ Here is my  documentation for the final year project for the module Emerging Tec
 
  # Execution on  Windows Platform
  ```bash
- set FLASK_APP=webServce.py
+ set FLASK_APP=webService.py
  python -m flask run
  ```
 
