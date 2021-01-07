@@ -44,7 +44,7 @@ Here is my  documentation for the final year project for the module Emerging Tec
 
 
  # Running Wind Turbine Metric Flask App.
-
+docker run -d -p 5000:5000 windturbine-app
  # Execution on Linux Platform
  ```bash
  export FLASK_APP=webService.py
@@ -56,6 +56,10 @@ Here is my  documentation for the final year project for the module Emerging Tec
  set FLASK_APP=webService.py
  python -m flask run
  ```
+ # Docker  Execution 
+docker build -t windturbine-app .
+docker run -d -p 5000:5000 windturbine-appdocker run -d -p 5000:5000 windturbine-app
+
 
 
 ## Application Modules  Breakdown
