@@ -57,8 +57,10 @@ docker run -d -p 5000:5000 windturbine-app
  python -m flask run
  ```
  # Docker  Execution 
-docker build -t windturbine-app .
-docker run -d -p 5000:5000 windturbine-appdocker run -d -p 5000:5000 windturbine-app
+  ```
+ docker build -t windturbine-app .
+ docker run -d -p 5000:5000 windturbine-appdocker run -d -p 5000:5000 windturbine-app
+ ```
 
 
 
